@@ -91,8 +91,11 @@ function countCharacterFreq(text) {
 
 /* 1.  Hitung */
 var arrCharacter = countCharacterFreq(text);
-console.log(arrCharacter);
-
+// console.log(arrCharacter);
+for (var j = 0, lenJ = arrCharacter.length; j < lenJ; j++) {
+    console.log(arrCharacter[j]);
+}
+console.log("\n\n\n");
 
 /* 2. Substitusi character  */
 function substitusi(text, arrSubs) {
@@ -243,10 +246,10 @@ var arrSubs = [
         subs: "q",
     },
 
-    {
-        asli: `\n`,
-        subs: "  ",
-    },
+    // {
+    //     asli: `\n`,
+    //     subs: "  ",
+    // },
 
 ];
 
